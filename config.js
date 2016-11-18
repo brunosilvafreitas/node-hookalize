@@ -2,27 +2,27 @@ var registredHooks = [
 	{
 		target: 'x',
 		type: 'pre',
-		module: 'pre1'
+		module: '../modules/pre1'
 	},
 	{
 		target: 'x',
 		type: 'pre',
-		module: 'pre2'
+		module: '../modules/pre2'
 	},
 	{
 		target: 'x',
 		type: 'pre',
-		module: 'pre3'
+		module: '../modules/pre3'
 	},
 	{
 		target: 'x',
 		type: 'post',
-		module: 'post1'
+		module: '../modules/post1'
 	},
 	{
 		target: 'x',
 		type: 'post',
-		module: 'post2'
+		module: '../modules/post2'
 	}
 ];
 

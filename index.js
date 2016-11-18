@@ -1,3 +1,5 @@
+var config = require('./config');
+
 var x = function (y) {
 	return new Promise(function(resolve, reject){
 		y = y+':final';
@@ -11,7 +13,7 @@ var x = function (y) {
 
 var hookalize = require('./hookalize');
 
-x = hookalize(x);
+x = hookalize(x,config);
 x('joao').then(function(a){
 		console.log("---fim---");
 		console.log(a);
